@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>渺渺与雪雪的小窝 - 今日菜系</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container page3">
+        <h1>今日菜系</h1>
+        
+        <div class="add-recipe">
+            <input type="text" id="recipeName" placeholder="输入菜谱名称">
+            <textarea id="recipeDesc" placeholder="输入菜谱描述"></textarea>
+            <button id="addRecipeBtn">添加菜谱</button>
+        </div>
+        
+        <div class="recipes-list" id="recipesList">
+            <!-- 菜谱将通过JavaScript动态添加 -->
+        </div>
+        
+        <button class="back-btn" onclick="window.location.href='main.html'">返回主页面</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

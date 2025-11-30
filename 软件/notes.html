@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>渺渺与雪雪的小窝 - 记事本</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container page5">
+        <h1>记事本</h1>
+        
+        <div class="notes-categories">
+            <button class="category-btn active" data-category="工作">工作</button>
+            <button class="category-btn" data-category="生活">生活</button>
+            <button class="category-btn" data-category="日常">日常</button>
+            <button class="category-btn" data-category="渺渺的吐槽">渺渺的吐槽</button>
+            <button class="category-btn" data-category="雪雪的吐槽">雪雪的吐槽</button>
+        </div>
+        
+        <div class="add-note">
+            <textarea id="noteContent" placeholder="写下你的笔记..."></textarea>
+            <button id="addNoteBtn">添加笔记</button>
+        </div>
+        
+        <div class="notes-list" id="notesList">
+            <!-- 笔记将通过JavaScript动态添加 -->
+        </div>
+        
+        <button class="back-btn" onclick="window.location.href='main.html'">返回主页面</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
